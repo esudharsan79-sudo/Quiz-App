@@ -1,14 +1,13 @@
 .container{
-    width: 640px;
+    display: flex;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 35px;
     background: white;
     color: #262626;
-    display: flex;
     flex-direction: column;
     gap: 20px;
     border-radius: 10px;
-    padding: 40px 50px;
+    padding: 10px 15px;
 }
 .container hr{
     height: 2px;
@@ -26,13 +25,13 @@
     padding-left: 15px;
     border: 1px solid #686868;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 20px;
     cursor: pointer;
 }
 .container button{
     margin: auto;
-    width: 250px;
+    width: 100px;
     height: 65px;
     background: #553f9a;
     color: #fff;
@@ -40,6 +39,24 @@
     font-weight: 500;
     border-radius: 8px;
     cursor: pointer;
+}
+.container button.next-btn:hover{
+    background: #4a3480;
+}
+.container button.submit-btn{
+    margin: auto;
+    width: 100px;
+    height: 65px;
+    color: #fff;
+    background: #00d397;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container button.submit-btn:hover{
+    background: #00b07a;
 }
 .container .index {
     margin: auto;

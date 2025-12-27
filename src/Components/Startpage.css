@@ -1,0 +1,36 @@
+.start-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+}
+
+.start-container h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.start-container p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.start-container button {
+  padding: 12px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #764ba2;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.start-container button:hover {
+  background-color: #f1f1f1;
+}

@@ -68,7 +68,7 @@ const Quiz = () => {
                 <li ref={option3} onClick={(e)=>{checkAns(e,3)}}>{question.option3}</li>
                 <li ref={option4} onClick={(e)=>{checkAns(e,4)}}>{question.option4}</li>
             </ul>
-            <button onClick={next}>Next</button>
+            <button onClick={next}className={index === data.length -1 ? "submit-btn" : "next-btn"}>{index === data.length -1 ? "Submit" : "Next"}</button>
             <div className='index'>{index+1} of {data.length} questions</div>
             </>}
             {result?<>

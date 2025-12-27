@@ -1,12 +1,15 @@
-import React from 'react'
-import Quiz from './Components/Quiz/Quiz'
+import React, { useState } from 'react';
+import Quiz from './Components/Quiz/Quiz.jsx';
+import StartPage from './Components/StartPage';
 
 const App = () => {
+  const [start, setStart] = useState(false);
+
   return (
     <>
-      <Quiz/>
+      {start ? <Quiz /> : <StartPage startQuiz={() => setStart(true)} />}
     </>
-   )
-}
+  );
+};
 
-export default App
+export default App;
