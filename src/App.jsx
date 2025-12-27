@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Quiz from './Components/Quiz/Quiz.jsx';
-import StartPage from './Components/StartPage';
+import StartPage from './Components/Startpage/Startpage.jsx';
 
 const App = () => {
   const [start, setStart] = useState(false);
