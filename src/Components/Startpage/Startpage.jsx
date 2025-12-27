@@ -1,5 +1,5 @@
 import React from 'react';
-import './StartPage.css';
+import './Startpage.css';
 
 const StartPage = ({ startQuiz }) => {
   return (
